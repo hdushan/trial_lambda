@@ -1,0 +1,16 @@
+service:
+  name: QAHuddle
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-west-2
+
+functions:
+  processEmail:
+    handler: handler.processEmail
+    events:
+      - s3:
+          bucket: qahuddle
+          event: s3:ObjectCreated:*
+          existing: true

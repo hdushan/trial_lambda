@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-west-2",
+            "eventTime": "2020-04-14T12:51:05.528Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDAJF4DQJXXZUH7QKSIS"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "10.233.125.84"
+            },
+            "responseElements": {
+                "x-amz-request-id": "1FDB8F75D0F5F373",
+                "x-amz-id-2": "dwjooeS0yu2M5voZYoRX6ZBG6Uj08QZrM4k4+czbW6RR3zCZVtfDXNuAxbTECT8vd25YQbnSg2EzYsXKlvqg7Qs5atOeE1cG"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "QAHuddle-dev-processEmail-68a737133cefb25bff959852b8f04754",
+                "bucket": {
+                    "name": "qahuddle",
+                    "ownerIdentity": {
+                        "principalId": "A3HYQBQEFGPT01"
+                    },
+                    "arn": "arn:aws:s3:::qahuddle"
+                },
+                "object": {
+                    "key": "8uam9ea6jr9gbsrrdjnhlqscca1sseac3atig5g1",
+                    "size": 8136,
+                    "eTag": "de0539dfed94e1a1146a455e7576a67e",
+                    "sequencer": "005E95B1BCB9170479"
+                }
+            }
+        }
+    ]
+}

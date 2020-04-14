@@ -1,0 +1,7 @@
+.serverless
+v1/.serverless
+v2/.serverless
+v3/.serverless
+v3/node_modules
+v3/package-lock.json
+v2/text.json
